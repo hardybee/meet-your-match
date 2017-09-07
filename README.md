@@ -122,10 +122,10 @@ which is the focus of this article.
 
 ## What is the structure of a Regular Expression?
 ``` javascript
-  /pattern/
+  /<pattern>/[ <flags> ]
 ```
 ## How do I use them?
-### Simple Patterns (no options/flags set)
+### Simple Patterns
 - Patterns are required for effectively using Regular Expressions and vary widely depending on what you are looking for.
   - note that simple patterns are taken __literally__.
     - `/P/`   returns only the first occurence of __'P'__ in a given string.
@@ -137,9 +137,9 @@ which is the focus of this article.
 
 
 ### Basic usage with the `match()` function
-The `match()` function takes a regular expression, or pattern, as a parameter.
+The `match()` function takes a regular expression, or pattern and (optional) flag(s) as parameter(s).
 ``` javascript
-  .match(/ *pattern* /)
+  .match(/ *pattern* / [ *flags* ])
 
 ```
 
