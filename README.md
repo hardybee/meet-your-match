@@ -1,5 +1,5 @@
 
-# Testing password requirements using regular expressions
+# Using regular expressions to validate password requirements 
 __Regular expressions can be used to verify that a given password meets certain validation criteria.__ 
 
 - *Consider these requirements*:
